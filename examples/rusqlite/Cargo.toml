@@ -12,7 +12,7 @@ chrono = { version = "0.4", default-features = false, features = ["clock"] }
 time = { version = "0.3.36", features = ["parsing", "macros"] }
 serde_json = { version = "1" }
 uuid = { version = "1", features = ["serde", "v4"] }
-rusqlite = { version = "0.32" }
+rusqlite = { version = "0.35.0" }
 sea-query = { path = "../.."}
 sea-query-rusqlite = { path = "../../sea-query-rusqlite", features = [
     "with-chrono",
@@ -23,4 +23,4 @@ sea-query-rusqlite = { path = "../../sea-query-rusqlite", features = [
 
 # NOTE: if you are copying this example into your own project, use the following line instead:
 # sea-query = { version = "0"}
-# sea-query-rusqlite = { version = "0", features = [...] }
+# sea-query-rusqlite = { version = "0.35.0", features = [...] }
